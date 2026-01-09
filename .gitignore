@@ -1,0 +1,52 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.egg-info/
+*.egg
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# -----------------------
+# Terraform
+# -----------------------
+ *.tfstate
+ *.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# -----------------------
+# Lambda / Build Artifacts
+# -----------------------
+lambda.zip
+*.zip
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+# Mac
+.DS_Store
+# Others
+*.swp
+*.swo
